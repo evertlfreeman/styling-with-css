@@ -3,117 +3,107 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
   <title>Stylin with CSS</title>
   <style>
+    html {
+      background-color: blueviolet;
+    }
 
-    html
-    {background-color: blueviolet;}
-  body
-  { font-family: Arial,sans-serif;
-  background-color:#861111;
-  max-width:960px;
-  width:90%
-  margin;auto;
-  padding:1%
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #861111;
+      max-width: 960px;
+      width: 90%;
+      margin: auto;
+      padding: 1%;
+    }
 
-}
+    footer {
+      text-align: center;
+      clear: both;
+    }
 
-footer{
-  text-align: center;
-  clear: both;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+    .page-header {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      font-family: 'Inknut Antiqua', serif;
+    }
 
+    nav {
+      text-align: center;
+    }
 
+    nav a {
+      color: #000;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 2%;
+    }
+
+    nav a:hover {
+      text-decoration: none;
+    }
   </style>
 </head>
+
 <body>
-   
-<h1 class="page-header">Stylin with CSS by Evert Freeman</h1>
-<h1 class="page-header"
-  width:80%;
-  margin:auto;
-  text-align:center;
-}
 
+  <h1 class="page-header">Stylin with CSS by Evert Freeman</h1>
 
+  <footer class="centered-footer">
+    <!-- Footer content here -->
+  </footer>
 
-
-
-
-<div>
-  <ul>
-    <li>Cookies</li>
-    <li>Sushi</li>
-    <li>Seafood</li>
-  </ul>
-  <ol>
-    <li>Avengers</li>
-    <li>Matrix</li>
-    <li>The Matrix</li>
-  </ol>
+  <div>
+    <ul>
+      <li>Cookies</li>
+      <li>Sushi</li>
+      <li>Seafood</li>
+    </ul>
+    <ol>
+      <li>Avengers</li>
+      <li>Matrix</li>
+      <li>The Matrix</li>
+    </ol>
   </div>
-</div> 
+
   <table>
     <tr>
       <th>First Name</th>
       <th>Last Name</th>
-      <th>Email Address</th>       
+      <th>Email Address</th>
     </tr>
     <tr>
       <td>Evert</td>
       <td>Freeman</td>
-      <td>evertlfreeman@gmail.comm</td>
+      <td>evertlfreeman@gmail.com</td>
     </tr>
   </table>
- 
-  
 
   <nav>
     <ul>
-        <li><a href="elements.html" target="_blank">HTML Elements</a></li>
-        <li><a href="https://www.w3.org/" target="_blank">The W3C</a></li>
-        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-        <li><a href="https://linkedin.com/learning/login" target="_blank">LinkedIn Learning Library</a></li>
+      <li><a href="elements.html" target="_blank">HTML Elements</a></li>
+      <li><a href="https://www.w3.org/" target="_blank">The W3C</a></li>
+      <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+      <li><a href="https://linkedin.com/learning/login" target="_blank">LinkedIn Learning Library</a></li>
     </ul>
- </nav>
- 
- <nav{
-  text-align:center;
-}
+  </nav>
 
-
-nav a{
-  color:#000; 
-}
-
-
-nav ul {
-  list-style:none; 
-}
-nav li
-{
-  display:inline-block;
-  margin:0 2%;
-}
-nav a:hover{
-  text-decoration: none; 
-}
-
-  
-    <img src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/revision/latest?cb=20210514134203" alt="HTML">
-<mark>Highlight</mark>
-  
+  <img src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/revision/latest?cb=20210514134203" alt="HTML">
+  <mark>Highlight</mark>
   <strong>Bold text</strong>
-  
-    <em>Important text</em>
-  
-    <i>Italic text</i>
+  <em>Important text</em>
+  <i>Italic text</i>
 
-   
-</div>
 </body>
+
 </html>
